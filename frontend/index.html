@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Progress Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SUBJECT MARK TRACKER</h1>
+    </header>
+
+    <main>
+        <section id="progress-form">
+            <h2>Add Subject</h2>
+            <input type="text" id="topic" placeholder="Enter topic">
+            <input type="number" id="score" placeholder="Enter score">
+            <button onclick="addProgress()">Add</button>
+        </section>
+
+        <section id="progress-list">
+            <h2>Subject List</h2>
+            <ul id="list"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
